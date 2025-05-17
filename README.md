@@ -13,6 +13,7 @@ This is a Laravel-based API designed to manage users and consult climatic data f
   - [Authentication](#authentication)
   - [Multi-language Support](#multi-language-support)
   - [Swagger Documentation](#swagger-documentation)
+  - [Postman Collection](#postman-collection)
 
 
 ## Prerequisites
@@ -134,3 +135,26 @@ The API is documented using Swagger (OpenAPI). You can access the interactive Sw
 
 This UI allows you to explore all available endpoints, view their parameters, request/response schemas, and try them out directly.
 
+
+### Postman Collection
+
+A Postman collection and an environment file are provided to help you easily test the API endpoints.
+
+1.  **Download the Collection and Environment:**
+    The files can be found in the repository at:
+    *   Collection: `docs/Test PulpoLine.postman_collection.json`
+    *   Environment: `docs/Local.postman_environment.json`
+    You can download these files directly from the GitHub repository.
+2.  **Import into Postman:**
+    *   Open Postman.
+    *   Click on "Import" (usually in the top-left corner).
+    *   Import both the `Test PulpoLine.postman_collection.json` file and the `Local.postman_environment.json` file.
+3.  **Configure the Environment:**
+    *   After importing, select the "Local" environment in Postman (usually a dropdown in the top-right corner).
+    *   Click on the "eye" icon next to the environment name to view and edit its variables.
+    *   **Important:** Update the `url` variable to match your local API URL (e.g., `http://127.0.0.1:8000/api` or `http://your-local-domain.test/api`).
+4.  **Authentication Token (`bearerToken`):**
+    *   The "Local" environment includes a variable named `bearerToken`.
+    *   After you successfully log in using the "Login User" request (found in the "Authentication" folder of the collection), you will receive an `access_token`.
+    *   You need to **manually copy this `access_token`** and paste it into the **CURRENT VALUE** of the `bearerToken` variable in your "Local" Postman environment.
+    *   The collection's authenticated requests are pre-configured to use `{{bearerToken}}` in their `Authorization` header.
