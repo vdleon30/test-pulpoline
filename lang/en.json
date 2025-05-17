@@ -1,0 +1,17 @@
+{
+    "User registered successfully": "User registered successfully",
+    "User logged in successfully": "User logged in successfully",
+    "Invalid login details": "Invalid login details",
+    "Successfully logged out": "Successfully logged out",
+    "Unauthenticated.": "Unauthenticated.",
+    "The Accept header must be set to application/json.": "The Accept header must be set to application/json.",
+    "Resource not found.": "Resource not found.",
+    "Server Error": "Server Error",
+    "City already in favorites.": "City already in favorites.",
+    "City removed from favorites.": "City removed from favorites.",
+    "City not found in favorites.": "City not found in favorites.",
+    "Could not retrieve weather data for the specified city or an API error occurred.": "Could not retrieve weather data for the specified city or an API error occurred.",
+    "No locations found for the given query or an API error occurred.": "No locations found for the given query or an API error occurred.",
+    "User does not have the right permissions.": "User does not have the right permissions."
+
+}

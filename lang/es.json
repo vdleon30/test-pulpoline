@@ -1,0 +1,16 @@
+{
+    "User registered successfully": "Usuario registrado exitosamente",
+    "User logged in successfully": "Usuario autenticado exitosamente",
+    "Invalid login details": "Credenciales de acceso inválidas",
+    "Successfully logged out": "Sesión cerrada exitosamente",
+    "Unauthenticated.": "No autenticado.",
+    "The Accept header must be set to application/json.": "La cabecera Accept debe ser application/json.",
+    "Resource not found.": "Recurso no encontrado.",
+    "Server Error": "Error del servidor",
+    "City already in favorites.": "La ciudad ya está en favoritos.",
+    "City removed from favorites.": "Ciudad eliminada de favoritos.",
+    "City not found in favorites.": "Ciudad no encontrada en favoritos.",
+    "Could not retrieve weather data for the specified city or an API error occurred.": "No se pudieron obtener los datos del clima para la ciudad especificada o ocurrió un error en la API.",
+    "No locations found for the given query or an API error occurred.": "No se encontraron ubicaciones para la consulta dada o ocurrió un error en la API.",
+    "User does not have the right permissions.": "El usuario no tiene los permisos adecuados."
+}
