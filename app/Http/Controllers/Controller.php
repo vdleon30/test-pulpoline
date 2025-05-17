@@ -8,7 +8,8 @@ namespace App\Http\Controllers;
  *      title="Weather API Documentation",
  *      description="API for managing users and consulting weather data from WeatherAPI",
  *      @OA\Contact(
- *          email="admin@example.com"
+ *          email="vdleon30@gmail.com",
+ *          name="Victor Leon"
  *      )
  * )
  */

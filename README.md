@@ -7,15 +7,13 @@ This is a Laravel-based API designed to manage users and consult climatic data f
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Configuration](#configuration)
 - [Running the Application](#running-the-application)
 - [Running Tests](#running-tests)
 - [API Usage](#api-usage)
   - [Authentication](#authentication)
   - [Multi-language Support](#multi-language-support)
   - [Swagger Documentation](#swagger-documentation)
-- [Key Functionalities](#key-functionalities)
-- [Environment Variables](#environment-variables)
+
 
 ## Prerequisites
 
@@ -63,9 +61,6 @@ Before you begin, ensure you have met the following requirements:
 
     WEATHER_API_KEY=YOUR_WEATHER_API_KEY_HERE
     WEATHER_API_BASE_URL=http://api.weatherapi.com/v1
-
-    # Ensure Sanctum is configured for your frontend if applicable
-    # SANCTUM_STATEFUL_DOMAINS=localhost,localhost:3000,127.0.0.1,127.0.0.1:8000,::1
     ```
 
 5.  **Create the database:**

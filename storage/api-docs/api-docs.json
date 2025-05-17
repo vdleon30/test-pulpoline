@@ -4,7 +4,8 @@
         "title": "Weather API Documentation",
         "description": "API for managing users and consulting weather data from WeatherAPI",
         "contact": {
-            "email": "admin@example.com"
+            "name": "Victor Leon",
+            "email": "vdleon30@gmail.com"
         },
         "version": "1.0.0"
     },
